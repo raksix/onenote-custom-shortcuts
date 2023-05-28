@@ -16,7 +16,6 @@ function listenForShortcut() {
    // İstenilen programın penceresi aktif olduğunda kısayolu işleyen kodu çalıştırın
 
    keyStream.on('data', state => {
-      console.log(state)
       const activeWindow = activeProcess.getActiveProcessName();
       var focusedOneNote = activeWindow && activeWindow.toLowerCase().includes(programExeName.toLowerCase())
 
