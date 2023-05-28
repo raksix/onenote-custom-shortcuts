@@ -1,0 +1,19 @@
+{
+  "name": "onenote-custom-shortcuts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "raksix",
+  "license": "ISC",
+  "dependencies": {
+    "global-keys": "^1.0.3",
+    "keypress": "^0.2.1",
+    "node-key-sender": "^1.0.11",
+    "node-process-windows": "^0.0.2",
+    "robotjs": "^0.6.0",
+    "windows-active-process": "^1.1.1"
+  }
+}
